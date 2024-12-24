@@ -1,0 +1,3 @@
+This repository demonstrates an uncommon bug in JavaScript related to unexpected string concatenation when a function includes a null check. The bug occurs when one of the function parameters is a string instead of a number, leading to unexpected behavior.
+
+The `bug.js` file shows the problematic function `foo`. The `bugSolution.js` file provides a corrected version that uses strict type checking to avoid the unintended concatenation.  The README provides explanations and solutions.  This showcases a scenario where implicit type coercion in JavaScript can cause unexpected outcomes. 
